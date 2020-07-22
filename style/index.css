@@ -45,7 +45,7 @@ time, mark, audio, video {
 	}
 	
 	h1 {
-		font-size: 4rem;
+		font-size: 5rem;
 		text-align: center;
 		color: #66fcf1;
 		width: 30%;
@@ -62,6 +62,7 @@ time, mark, audio, video {
 	}
 
 	nav a {
+		font-size: 2rem;
 		text-decoration: none;
 		background: #c5c6c7;
 		color: #182f33;
@@ -85,13 +86,13 @@ time, mark, audio, video {
 }
 
 h2 {
-	font-size: 2.5rem;
+	font-size: 4rem;
 	margin-bottom: 3%;
 }
 
 p {
 	width: 60%;
-	font-size: 1.5rem;
+	font-size: 2rem;
 	line-height: 1.5;
 	margin-bottom: 3%;
 }
@@ -115,7 +116,7 @@ img {
 
 .second-sect p {
 	width: 20%;
-	font-size: 1.5rem;
+	font-size: 2rem;
 	margin-right: 3%;
 }
 
@@ -129,7 +130,7 @@ footer {
 }
 
 .contact-button {
-	font-size: 1.8rem;
+	font-size: 2rem;
 	color: #a5e9e9;
 	margin-top: 3%;
 	text-align: center;
@@ -155,7 +156,7 @@ footer {
 }
 
 .social-container a {
-	font-size: 1.8rem;
+	font-size: 2rem;
 	color: #66fcf1
 }
 
@@ -166,7 +167,37 @@ footer {
 
 /* tablet responsive code (800px) */
 @media(max-width: 800px) {
-	 
+	nav {
+		flex-wrap: wrap;
+	}
+
+	nav a {
+		width: 40%;
+	}
+
+	.second-sect {
+		flex-wrap: wrap;
+	}
+
+	.second-sect img {
+		width: 40%;
+		height: 50%;
+		margin-bottom: 3%;
+	}
+
+	.second-sect p {
+		width: 50%;
+		text-align: center;
+	}
+
+	.contact-button {
+		width: 35%;
+		margin-bottom: 5%;
+	}
+
+	.social-container {
+		margin-bottom: 5%;
+	}
 }
 
 
@@ -180,32 +211,5 @@ footer {
 	nav a {
 		width: 20rem;
 		padding: 3% 0;
-	}
-
-	.second-sect {
-		flex-direction: row;
-		flex-wrap: wrap;
-		align-items: center;
-		justify-content: space-evenly;
-	}
-
-
-	.second-sect img {
-		width: 40%;
-		height: 50%;
-		margin-bottom: 3%;
-	}
-
-	.second-sect p {
-		width: 60%;
-	}
-
-	.contact-button {
-		width: 35%;
-		margin-bottom: 8%;
-	}
-
-	.social-container {
-		margin-bottom: 8%;
 	}
 }
