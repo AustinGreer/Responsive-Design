@@ -181,7 +181,7 @@ footer {
 
 	.second-sect img {
 		width: 40%;
-		height: 50%;
+		height: 70%;
 		margin-bottom: 3%;
 	}
 
@@ -211,5 +211,13 @@ footer {
 	nav a {
 		width: 20rem;
 		padding: 3% 0;
+	}
+
+	.first-sect img {
+		height: 60%;
+	}
+
+	h2 {
+		text-align: center;
 	}
 }
